@@ -9,9 +9,9 @@ using namespace std;
 
 #define MAXN 2147483647
 
-double distance(float x1,float y1, float x2, float y2)
+long double distance(long double x1,long double y1, long double x2, long double y2)
 {
-    return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+    return sqrt(powl(x2 - x1, 2) + powl(y2 - y1, 2));
 }
 
 int main(){
